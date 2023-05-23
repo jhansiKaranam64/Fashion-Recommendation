@@ -10,8 +10,12 @@ Getting Started
 
 To get started with the Clothing Item Recommender, follow the instructions below.
 
-Prerequisites
+Pre-requisites
 
 Python 3.7 or higher
 pip package manager
+
+Prepare the Dataset
+
+The Dataset can be prepared by web scraping. I have used parsehub web scraping tool to scrap data from amazon . I have also manually scrapped limeroad data using requests and beautiful soup.After gathering data organize your clothing item dataset into a CSV file with two columns: description and url. The description column should contain text descriptions of the clothing items, and the url column should contain the corresponding URLs to the items' websites. Ensure that the dataset has a sufficient number of examples for accurate recommendations.
 
