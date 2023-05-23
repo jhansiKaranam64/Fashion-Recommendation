@@ -19,3 +19,11 @@ Prepare the Dataset
 
 The Dataset can be prepared by web scraping. I have used parsehub web scraping tool to scrap data from amazon . I have also manually scrapped limeroad data using requests and beautiful soup.After gathering data organize your clothing item dataset into a CSV file with two columns: description and url. The description column should contain text descriptions of the clothing items, and the url column should contain the corresponding URLs to the items' websites. Ensure that the dataset has a sufficient number of examples for accurate recommendations.
 
+Clean the data:
+
+Perform data cleaning operations to ensure the text data is in a suitable format for processing. Some common cleaning steps include:
+1) Removing any unnecessary columns that are not required for training the recommender.
+2) Handling missing values, if any. You can choose to drop rows with missing values or fill them with appropriate values.
+3) Removing any special characters, punctuation, or HTML tags from the text data.
+4) Converting the text to lowercase to ensure consistent processing.
+
