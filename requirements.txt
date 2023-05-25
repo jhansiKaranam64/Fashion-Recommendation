@@ -1,0 +1,13 @@
+
+jsonpickle==3.0.1
+jsonschema==4.3.3
+nltk==3.8.1
+numpy==1.22.4
+pandas==1.5.3
+pickleshare==0.7.5
+requests==2.27.1
+scikit-image==0.19.3
+scikit-learn==1.2.2
+sklearn-pandas==2.2.0
+streamlit==1.22.0
+tensorflow==2.12.0
